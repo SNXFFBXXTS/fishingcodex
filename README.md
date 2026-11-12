@@ -1,23 +1,25 @@
 # Fishing Rig Codex
 
-An illustrated, step-by-step guide to sea fishing rigs and bait presentation, written for Essex shore fishing.
+An interactive sea fishing rig builder and bait presentation guide, made for Essex shore fishing.
 
-Open `index.html` in any browser. It's a single self-contained page with no dependencies.
+**Live:** https://snxffbxxts.github.io/fishingcodex/
 
-## Contents
+## Rig builder
 
-**Rigs:** two-hook flapper (crimps and beads), clipped-down, Pennell/bomber, pulley, running ledger. The clipped-down, pulley and running ledger diagrams are animated.
+Pick a rig (flapper, clipped-down, Pennell, pulley, running ledger), the number of hooks, hook sizes and pattern, bait, snood length, line strengths, lead and beads. You can also start from a species preset (whiting, codling, flounder, dabs, thornback, smoothhound, bass, sole).
 
-**Bait presentation:** each one is a step-by-step animated card.
-- Threading black lug without the mush
-- Half lug + squid tip (whiting flapper)
-- Lug & squid cod cocktail
-- Ragworm
-- Peeler crab
-- Elastic: hold, don't squeeze
+For each setup it gives you:
+- **A to-scale diagram**, redrawn live, with "for the cast" and "on the seabed" views for clipped and pulley rigs
+- **Checks**, such as snoods that will tangle, clips that land on the next station, or a hook that's wrong for the bait
+- **A parts list** with specs and quantities
+- **Step-by-step tying instructions** for that exact rig, linked to the knot guide
 
-**Quick picker:** a table matching target and situation to rig, bait and hook.
+## Also included
+- Step-by-step bait presentation cards: black lug (without the mush), half lug + squid tip, lug & squid cocktail, ragworm, peeler crab
+- An elastic guide
+- A knot guide: grinner, snood knot, dropper loop, surgeon's loop, loop-to-loop, crimping
 
-## Viewing on a phone
-
-Turn on GitHub Pages (Settings → Pages → Deploy from branch → `main` / root). The guide will then be live at `https://<user>.github.io/fishingcodex/`.
+## Files
+- `index.html`: the page
+- `style.css`: styles
+- `app.js`: rig data, SVG renderer, instructions and bait cards. There's no build step and no dependencies.
